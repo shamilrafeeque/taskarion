@@ -19,6 +19,7 @@ class productMainModel(models.Model):
     Quality = models.CharField(max_length=20,choices=Qualitychoice)
     
     
+    
 class productColourModel(models.Model):
     colorchoice=(
         ("red","red"),
